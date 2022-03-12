@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    padding: 0;
     }
 
 
@@ -29,7 +30,16 @@
     font-size: 18px;
     line-height: 149.8%;
     color: #000000;
-    margin-left: 50px;
+    // margin-left: 50px;
+  }
+  &__content-txt1{
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #000000;
   }
 
   &__girls-img{
