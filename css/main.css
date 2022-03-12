@@ -760,9 +760,8 @@ body {
   background-image: url("../../img/footer.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 0px) -75px;
-  background-size: 1236px 490px;
+  background-size: 100% 490px;
   background-blend-mode: 1;
-  background-size: cover;
 }
 
 .site-footer__site-footer-wrapper {
