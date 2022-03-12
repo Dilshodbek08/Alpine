@@ -2,7 +2,8 @@
   height: 1740px;
   background-image: url("../../img/Rectangle\ 2.png");
   background-repeat: no-repeat;
-  background-size: 1263px 1739px;
+  background-size: cover;
+  // background-size: 1263px 1739px;
   background-position: calc(50% + 0px) 0px;
   padding-top: 1100px;
   z-index: -1;
@@ -28,6 +29,7 @@
     font-size: 18px;
     line-height: 149.8%;
     color: #000000;
+    margin-left: 50px;
   }
 
   &__girls-img{

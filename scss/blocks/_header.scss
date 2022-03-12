@@ -5,7 +5,8 @@
   background-image: url("../../img/Rectangle\ 1.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 0px) 0px;
-  background-size: 1263px,688px;
+  background-size: cover;
+
   &__wrap {
     @include flexStyle(center, start);
     padding-top: 40px;

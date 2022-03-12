@@ -341,6 +341,15 @@ template {
   display: none;
 }
 
+/* paytone-one-regular - latin */
+@font-face {
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/paytone-one-v16-latin-regular.woff2") format("woff2"), url("../fonts/paytone-one-v16-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .nav__list {
   list-style-type: none;
   padding: 0;
@@ -360,7 +369,7 @@ html {
 }
 
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Segoe UI", "Paytone One", sans-serif;
   height: 100%;
   font-size: 16px;
   line-height: 1.5;
@@ -387,7 +396,7 @@ body {
   background-image: url("../../img/Rectangle 1.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 0px) 0px;
-  background-size: 1263px,688px;
+  background-size: cover;
 }
 
 .header__wrap {
@@ -438,7 +447,6 @@ body {
 }
 
 .big-hero-div {
-  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,13 +457,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  width: 900px;
+  max-width: 900px;
   height: 1550px;
   margin-left: auto;
   margin-right: auto;
-  left: 181.5px;
-  top: 188px;
+  margin-top: -2250px;
+  margin-bottom: 700px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 42, 39, 0)), color-stop(33.85%, rgba(45, 40, 40, 0.85)), color-stop(49.48%, #2D2828), color-stop(68.75%, #2D2828), color-stop(82.29%, #2D2828), to(#2D2828));
   background: linear-gradient(180deg, rgba(50, 42, 39, 0) 0%, rgba(45, 40, 40, 0.85) 33.85%, #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -463,6 +470,7 @@ body {
           box-sizing: border-box;
   -webkit-box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
           box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+  background-size: cover;
   padding-right: 50px;
   padding-left: 30px;
 }
@@ -548,7 +556,7 @@ body {
   height: 1740px;
   background-image: url("../../img/Rectangle 2.png");
   background-repeat: no-repeat;
-  background-size: 1263px 1739px;
+  background-size: cover;
   background-position: calc(50% + 0px) 0px;
   padding-top: 1100px;
   z-index: -1;
@@ -578,6 +586,7 @@ body {
   font-size: 18px;
   line-height: 149.8%;
   color: #000000;
+  margin-left: 50px;
 }
 
 .brens-wrapper__girls-img {
@@ -751,7 +760,9 @@ body {
   background-image: url("../../img/footer.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 0px) -75px;
-  background-size: 1263px,288px;
+  background-size: 1236px 490px;
+  background-blend-mode: 1;
+  background-size: cover;
 }
 
 .site-footer__site-footer-wrapper {
@@ -765,7 +776,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
-  padding: 100px 0px;
+  padding: 100px 0px 70px 0px;
 }
 
 .footer-logo {
@@ -773,6 +784,17 @@ body {
   font-size: 45px;
   line-height: 63px;
   color: #FFFFFF;
+}
+
+.footer-link {
+  font-family: 'Paytone One';
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 63px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-list {
@@ -821,4 +843,5 @@ body {
   padding: 8px 20px;
   background-color: #fff;
   margin-left: 370px;
+  margin-bottom: -30px;
 }
