@@ -1,0 +1,59 @@
+.brends-info{
+  height: 1740px;
+  background-image: url("../../img/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-size: 1263px 1739px;
+  background-position: calc(50% + 0px) 0px;
+  padding-top: 1100px;
+  z-index: -1;
+}
+
+.brens-wrapper{
+    &__brends-box-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    }
+
+
+  &__content-texts{
+    margin: 20px;
+    text-align: justify;
+  }
+
+  &__content-txt{
+    width: 260px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #000000;
+  }
+
+  &__girls-img{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+
+  &__brends-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__boxs-item{
+    margin: 0 30px;
+  }
+
+  &__imgss{
+    margin-right: 20px;
+  }
+
+}
+
+
